@@ -6,5 +6,3 @@ class Product(models.Model):
     date_added = models.DateField(auto_now_add=True)
     price = models.IntegerField()
     description = models.TextField()
-    version = models.TextField()
-    releasedate = models.TextField()
